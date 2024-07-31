@@ -52,6 +52,7 @@ if [[ "$OS" == 'Darwin' ]]; then
   yarn package-macos
 else
   yarn package-deb
+  yarn package-win
 fi
 
 if [ -n "${LINKED}" ]; then
